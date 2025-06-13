@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pncp-backend
+    env: node
+    buildCommand: 'npm install'
+    startCommand: 'npm start'
+    branch: main
+    region: oregon
+    plan: free
