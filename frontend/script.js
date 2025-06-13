@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://<SEU-APP>.onrender.com/api/pncp';
+const API_BASE_URL = 'https://dashboard-para-consultas.onrender.com/api/pncp';
 
 async function consultarPNCP(tipoConsulta, parametros) {
   const url = new URL(`${API_BASE_URL}/${tipoConsulta}`);
